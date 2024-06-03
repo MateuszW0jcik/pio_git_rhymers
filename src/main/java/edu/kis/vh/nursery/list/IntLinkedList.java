@@ -4,7 +4,7 @@ public class IntLinkedList {
 
     private static final int IF_EMPTY = -1;
     private Node last;
-    private int i;
+    private int i; // TODO: usunąć nieużywaną zmienną
 
     private class Node {
 
@@ -53,7 +53,7 @@ public class IntLinkedList {
 
     public boolean isFull() {
         return false;
-    }
+    } // TODO: zmiana funkcji gdyż zawsze zwraca false
 
     public int top() {
         if (isEmpty())
